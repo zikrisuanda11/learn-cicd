@@ -15,6 +15,7 @@ jobs:
           host: ${{secrets.HOST}}
           key: ${{secrets.KEY}}
           username: ${{secrets.USERNAME}}
+          passphrase: ${{secrets.PASSPHRASE}}
 
           script: |
            mkdir test

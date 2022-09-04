@@ -17,4 +17,4 @@ jobs:
           username: ${{secrets.USERNAME}}
 
           script: |
-            echo tes
+            mkdir tes
